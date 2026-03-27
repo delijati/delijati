@@ -1,33 +1,33 @@
-### Hi there 👋
+### Hi there
 
 A collection of my own (non-forked) projects spanning data engineering, machine learning, DevOps, Qt/QML, and Python tooling.
 
 ---
 
-## 🔥 Data Engineering & Apache Spark
+## Data Engineering & Apache Spark
 
 | Repository | Tech | Description |
 |---|---|---|
 | [spark-emr](https://github.com/delijati/spark-emr) | `Python` `Apache Spark` `AWS EMR` `PySpark` | Spark EMR (Spot) cluster manager for running cost-efficient workloads on AWS. |
 | [spark-optimizer](https://github.com/delijati/spark-optimizer) | `Python` `Apache Spark` `AWS EMR` | Optimize Apache Spark settings for AWS EMR (spark config cheatsheet). |
 | [spark-docker](https://github.com/delijati/spark-docker) | `Docker` `Apache Spark` `Hadoop` `AWS` | Docker image bundling Spark, Hadoop, and AWS services for local dev. |
-| [pg-tuna](https://github.com/delijati/pg-tuna) | `Python` `PostgreSQL` `AWS RDS` | PostgreSQL / AWS RDS configuration wizard — yet another pgtune. |
+| [pg-tuna](https://github.com/delijati/pg-tuna) | `Python` `PostgreSQL` `AWS RDS` | PostgreSQL / AWS RDS configuration wizard -- yet another pgtune. |
 
 ---
 
-## 🤖 Machine Learning & Robotics
+## Machine Learning & Robotics
 
 | Repository | Tech | Description |
 |---|---|---|
 | [pytorch-siamese](https://github.com/delijati/pytorch-siamese) | `Python` `PyTorch` `Deep Learning` | Siamese Network implementation with contrastive loss using PyTorch. |
 | [tchotcho](https://github.com/delijati/tchotcho) | `Python` `AWS EC2` | Launch and manage EC2 training jobs once local experimentation is done. |
 | [pysimiam-simulator](https://github.com/delijati/pysimiam-simulator) | `Python` `Robotics` | Robot simulator based on the PySimiam framework. |
-| [ultrabot](https://github.com/delijati/ultrabot) | `Python` `Robotics` | Ultrabot — a QuickBot sibling for robotics experiments. |
+| [ultrabot](https://github.com/delijati/ultrabot) | `Python` `Robotics` | Ultrabot -- a QuickBot sibling for robotics experiments. |
 | [memleak](https://github.com/delijati/memleak) | `C++` `NumPy` | Demonstration of NumPy / C++ memory leak patterns and how to detect them. |
 
 ---
 
-## 🐳 Docker & DevOps
+## Docker & DevOps
 
 | Repository | Tech | Description |
 |---|---|---|
@@ -36,19 +36,19 @@ A collection of my own (non-forked) projects spanning data engineering, machine 
 
 ---
 
-## 🖥️ Qt / QML / C++
+## Qt / QML / C++
 
 | Repository | Tech | Description |
 |---|---|---|
 | [schemeHandlerQML](https://github.com/delijati/schemeHandlerQML) | `C++` `Qt` `QML` | Custom Qt URL scheme handler that renders a static page inside QML. |
 | [schemeHandlerHtml](https://github.com/delijati/schemeHandlerHtml) | `C++` `Qt` | Custom Qt URL scheme handler that renders a static HTML page. |
-| [ubtd](https://github.com/delijati/ubtd) | `C++` `Ubuntu Touch` | Mirror of the ubtd project — Ubuntu Touch Bluetooth daemon. |
+| [ubtd](https://github.com/delijati/ubtd) | `C++` `Ubuntu Touch` | Mirror of the ubtd project -- Ubuntu Touch Bluetooth daemon. |
 | [fosdem-qml](https://github.com/delijati/fosdem-qml) | `QML` `Ubuntu Touch` `UBports` | FOSDEM schedule app for Ubuntu Touch / UBports. |
 | [sparse-qml](https://github.com/delijati/sparse-qml) | `Python` `QML` `Qt` `Matrix` `PyOtherSide` | Experimental Matrix protocol client for Ubuntu Touch using QML + Python. |
 
 ---
 
-## 🐍 Python Tools & Plugins
+## Python Tools & Plugins
 
 | Repository | Tech | Description |
 |---|---|---|
@@ -61,7 +61,7 @@ A collection of my own (non-forked) projects spanning data engineering, machine 
 
 ---
 
-## 🌐 Web & JavaScript
+## Web & JavaScript
 
 | Repository | Tech | Description |
 |---|---|---|
@@ -70,8 +70,8 @@ A collection of my own (non-forked) projects spanning data engineering, machine 
 
 ---
 
-## 🚦 Other
+## Other
 
 | Repository | Tech | Description |
 |---|---|---|
-| [traffic](https://github.com/delijati/traffic) | — | Traffic-related experiments and utilities. |
+| [traffic](https://github.com/delijati/traffic) | - | Traffic-related experiments and utilities. |
