@@ -71,9 +71,6 @@ Repos marked with `[fork]` are forks of upstream projects I have contributed to.
 
 | Repository | Type | Tech | Description |
 |---|---|---|---|
-| [schemeHandlerQML](https://github.com/delijati/schemeHandlerQML) | own | `C++` `Qt` `QML` | Custom Qt URL scheme handler that renders a static page inside QML. |
-| [schemeHandlerHtml](https://github.com/delijati/schemeHandlerHtml) | own | `C++` `Qt` | Custom Qt URL scheme handler that renders a static HTML page. |
-| [ubtd](https://github.com/delijati/ubtd) | own | `C++` `Ubuntu Touch` | Mirror of the ubtd project -- Ubuntu Touch Bluetooth daemon. |
 | [fosdem-qml](https://github.com/delijati/fosdem-qml) | own | `QML` `Ubuntu Touch` `UBports` | FOSDEM schedule app for Ubuntu Touch / UBports. |
 | [sparse-qml](https://github.com/delijati/sparse-qml) | own | `Python` `QML` `Qt` `Matrix` `PyOtherSide` | Experimental Matrix protocol client for Ubuntu Touch using QML + Python. |
 | [tensor](https://github.com/delijati/tensor) | fork | `QML` `Qt5` `Matrix` | Cross-platform Qt5/QML-based Matrix client. |
