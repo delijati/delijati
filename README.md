@@ -5,7 +5,7 @@ Repos marked with `[fork]` are forks of upstream projects with substantial own c
 
 ---
 
-## Data Engineering & Apache Spark
+## Data Engineering
 
 | Repository | Type | Tech | Description |
 |---|---|---|---|
@@ -13,8 +13,8 @@ Repos marked with `[fork]` are forks of upstream projects with substantial own c
 | [spark-optimizer](https://github.com/delijati/spark-optimizer) | own | `Python` `Apache Spark` `AWS EMR` | Optimize Apache Spark settings for AWS EMR (spark config cheatsheet). |
 | [spark-docker](https://github.com/delijati/spark-docker) | own | `Docker` `Apache Spark` `Hadoop` `AWS` | Docker image bundling Spark, Hadoop, and AWS services for local dev. |
 | [pg-tuna](https://github.com/delijati/pg-tuna) | own | `Python` `PostgreSQL` `AWS RDS` | PostgreSQL / AWS RDS configuration wizard -- yet another pgtune. |
-| [botocore](https://github.com/delijati/botocore) | fork | `Python` `AWS` | The low-level, core functionality of boto 3. |
 | [ec2instances.info](https://github.com/delijati/ec2instances.info) | fork | `HTML` `AWS EC2` | Amazon EC2 instance comparison site. |
+| [tchotcho](https://github.com/delijati/tchotcho) | own | `Python` `AWS EC2` | Launch and manage EC2 training jobs once local experimentation is done. |
 
 ---
 
@@ -34,7 +34,6 @@ Repos marked with `[fork]` are forks of upstream projects with substantial own c
 |---|---|---|---|
 | [pysimiam-simulator](https://github.com/delijati/pysimiam-simulator) | own | `Python` `Robotics` | Robot simulator based on the PySimiam framework. |
 | [ultrabot](https://github.com/delijati/ultrabot) | own | `Python` `Robotics` | Ultrabot -- a QuickBot sibling for robotics experiments. |
-| [tchotcho](https://github.com/delijati/tchotcho) | own | `Python` `AWS EC2` | Launch and manage EC2 training jobs once local experimentation is done. |
 | [quickbot_bbb](https://github.com/delijati/quickbot_bbb) | fork | `Python` `Robotics` `BeagleBone` | QuickBot firmware for the BeagleBone Black. |
 
 ---
@@ -45,50 +44,15 @@ Repos marked with `[fork]` are forks of upstream projects with substantial own c
 |---|---|---|---|
 | [docker-shiv](https://github.com/delijati/docker-shiv) | own | `Docker` `Shell` `Python` `Wine` `Shiv` | Build self-contained Python zipapps (shiv) for Windows using Docker + Wine. |
 | [docker-arm-x86](https://github.com/delijati/docker-arm-x86) | own | `Docker` `QEMU` | Run ARM Docker images on an x86 host via QEMU emulation. |
-| [Zappa](https://github.com/delijati/Zappa) | fork | `Python` `Serverless` `AWS Lambda` | Serverless Python -- deploy Python apps to AWS Lambda. |
-| [pyinstaller](https://github.com/delijati/pyinstaller) | fork | `Python` `Packaging` | Freeze Python programs into stand-alone executables. |
-| [specchio](https://github.com/delijati/specchio) | fork | `Python` `rsync` | Auto-sync your code using .gitignore rules. |
-| [cosent.buildtools](https://github.com/delijati/cosent.buildtools) | fork | `Python` `buildout` | Release scripts for buildout-based projects. |
-| [setuptools](https://github.com/delijati/setuptools) | fork | `Python` `Packaging` | Official repository for the Setuptools build system. |
 
 ---
 
-## Qt / QML / C++
+## Ubuntu Touch & Qt / QML / C++
 
 | Repository | Type | Tech | Description |
 |---|---|---|---|
 | [fosdem-qml](https://github.com/delijati/fosdem-qml) | own | `QML` `Ubuntu Touch` `UBports` | FOSDEM schedule app for Ubuntu Touch / UBports. |
 | [sparse-qml](https://github.com/delijati/sparse-qml) | own | `Python` `QML` `Qt` `Matrix` `PyOtherSide` | Experimental Matrix protocol client for Ubuntu Touch using QML + Python. |
-| [tensor](https://github.com/delijati/tensor) | fork | `QML` `Qt5` `Matrix` | Cross-platform Qt5/QML-based Matrix client. |
-| [uMatriks](https://github.com/delijati/uMatriks) | fork | `QML` `Ubuntu Touch` `Matrix` | Matrix protocol client for Ubuntu Touch. |
-
----
-
-## Ubuntu Touch & UBports
-
-| Repository | Type | Tech | Description |
-|---|---|---|---|
-| [geocaching](https://github.com/delijati/geocaching) | fork | `Python` `Ubuntu Touch` | Geocaching.com (unofficial) app for Ubuntu Touch. |
-| [stats.ubports.com](https://github.com/delijati/stats.ubports.com) | fork | `JavaScript` `UBports` | Active device statistics for Ubuntu Touch. |
-| [OnTheRoad](https://github.com/delijati/OnTheRoad) | fork | `Shell` `Ubuntu Touch` | Development tool for Ubuntu Touch. |
-| [clickable](https://github.com/delijati/clickable) | fork | `Python` `Ubuntu Touch` | Compile, build, and deploy Ubuntu Touch click packages from the command line. |
-| [docs](https://github.com/delijati/docs) | fork | `Python` `Halium` | Documentation for the Halium project. |
-
----
-
-## Python Tools & Plugins
-
-| Repository | Type | Tech | Description |
-|---|---|---|---|
-| [vim-importmagic](https://github.com/delijati/vim-importmagic) | own | `Python` `Vim` | Vim plugin that uses importmagic to auto-import missing Python modules. |
-| [vim-buivir](https://github.com/delijati/vim-buivir) | own | `Python` `Vim` `virtualenv` `buildout` | Vim plugin to activate a buildout or virtualenv environment from within Vim. |
-| [vimeval](https://github.com/delijati/vimeval) | own | `Python` `Vim` | Evaluate Python expressions directly inside Vim. |
-| [benchmark](https://github.com/delijati/benchmark) | own | `Python` `Zappa` `WSGI` `ASGI` | Benchmark comparing WSGI vs ASGI performance under Zappa on AWS Lambda. |
-| [kinto_swagger](https://github.com/delijati/kinto_swagger) | own | `Python` `Kinto` `Swagger` `REST` | Swagger / OpenAPI integration plugin for the Kinto storage service. |
-| [cookiecutter-cornice_swagger](https://github.com/delijati/cookiecutter-cornice_swagger) | own | `Python` `Cookiecutter` `Cornice` `Swagger` | Cookiecutter template for bootstrapping a Cornice + Swagger API. |
-| [vimpyre](https://github.com/delijati/vimpyre) | fork | `Python` `Vim` | Vim Scripts Manager (uses pathogen, git, and Python). |
-| [webalchemy](https://github.com/delijati/webalchemy) | fork | `Python` `Web` | Modern web development with Python. |
-| [weave-minimal](https://github.com/delijati/weave-minimal) | fork | `Python` `Firefox Sync` | Lightweight Firefox Weave/Sync server. |
 
 ---
 
@@ -96,12 +60,7 @@ Repos marked with `[fork]` are forks of upstream projects with substantial own c
 
 | Repository | Type | Tech | Description |
 |---|---|---|---|
-| [flask-sqlalchemy](https://github.com/delijati/flask-sqlalchemy) | fork | `Python` `Flask` `SQLAlchemy` | Adds SQLAlchemy support to Flask. |
-| [flask-sillywalk](https://github.com/delijati/flask-sillywalk) | fork | `Python` `Flask` `Swagger` | Flask extension implementing Swagger / OpenAPI support. |
-| [deform](https://github.com/delijati/deform) | fork | `Python` `HTML Forms` | Python HTML form library. |
-| [deformdemo](https://github.com/delijati/deformdemo) | fork | `Python` `Deform` | Demo application for the Deform form generation framework. |
-| [colander](https://github.com/delijati/colander) | fork | `Python` `Serialization` | Serialization/deserialization/validation library for Python. |
-| [fastapi-router-controller](https://github.com/delijati/fastapi-router-controller) | fork | `Python` `FastAPI` | FastAPI utility for Controller Class-style routing. |
+| [benchmark](https://github.com/delijati/benchmark) | own | `Python` `Zappa` `WSGI` `ASGI` | Benchmark comparing WSGI vs ASGI performance under Zappa on AWS Lambda. |
 
 ---
 
@@ -110,15 +69,6 @@ Repos marked with `[fork]` are forks of upstream projects with substantial own c
 | Repository | Type | Tech | Description |
 |---|---|---|---|
 | [crabstore](https://github.com/delijati/crabstore) | own | `JavaScript` `Ionic` `Protocol Buffers` | Google Play Store client written in JavaScript using the Ionic framework. |
-| [js.select2](https://github.com/delijati/js.select2) | own | `JavaScript` `Fanstatic` | Packages the Select2 jQuery plugin as a Fanstatic resource for Python web apps. |
-
----
-
-## Other
-
-| Repository | Type | Tech | Description |
-|---|---|---|---|
-| [traffic](https://github.com/delijati/traffic) | own | - | Traffic-related experiments and utilities. |
 
 ---
 
