@@ -19,6 +19,7 @@ A collection of my repositories spanning data engineering, machine learning, Dev
 | [spark-optimizer](https://github.com/delijati/spark-optimizer) | own | `Python` `Apache Spark` `AWS EMR` | Optimize Apache Spark settings for AWS EMR (spark config cheatsheet). |
 | [spark-docker](https://github.com/delijati/spark-docker) | own | `Docker` `Apache Spark` `Hadoop` `AWS` | Docker image bundling Spark, Hadoop, and AWS services for local dev. |
 | [pg-tuna](https://github.com/delijati/pg-tuna) | own | `Python` `PostgreSQL` `AWS RDS` | PostgreSQL / AWS RDS configuration wizard -- yet another pgtune. |
+| [scorched](https://github.com/lugensa/scorched) | maintainer | `Python` `SOLR` `Lucene` |  Sunburnt offspring SOLR client |
 | [tchotcho](https://github.com/delijati/tchotcho) | own | `Python` `AWS EC2` | Launch and manage EC2 training jobs once local experimentation is done. |
 | [ec2instances.info](https://github.com/delijati/ec2instances.info) | fork | `HTML` `AWS EC2` | Amazon EC2 instance comparison site -- personal fork for local dev and experiments. |
 | [fsspec/s3fs](https://github.com/fsspec/s3fs) | contribution | `Python` `AWS S3` | [#140](https://github.com/fsspec/s3fs/pull/140) Add `region_name` parameter to `create_bucket` |
